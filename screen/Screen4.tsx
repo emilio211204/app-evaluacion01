@@ -12,7 +12,7 @@ export default function Screen4() {
             try {
                 const resp = await fetch('https://jritsqmet.github.io/web-api/libros.json');
                 const json = await resp.json();
-                console.log(json); 
+                console.log(json.libros); 
                 setdatos(json.libros);
             } catch (error) {
                 console.error(error); 

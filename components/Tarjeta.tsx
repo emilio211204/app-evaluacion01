@@ -26,7 +26,7 @@ export default function Tarjeta(props: any) {
                 <View style={styles.modalContainer}>
                     <View style={styles.modalContent}>
                         <Text style={styles.modalTitle}>Detalles del libro</Text>
-                        <Text style={styles.modalText}>Título: {props.libros.id.titulo}</Text>
+                        <Text style={styles.modalText}>Título: {props.libros.titulo}</Text>
                         <Text style={styles.modalText}>Autor: {props.libros.autor}</Text>
                         <Text style={styles.modalText}>Editorial: {props.libros.detalles.editorial}</Text>
                         <Text style={styles.modalText}>Fecha de publicación: {props.libros.año}</Text>

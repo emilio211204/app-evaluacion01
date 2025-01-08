@@ -121,8 +121,10 @@ const styles = StyleSheet.create({
     touch:{
         backgroundColor: '#4CAF50',
         paddingVertical: 12,
-        paddingHorizontal: 32,
+        paddingHorizontal: 20,
         borderRadius: 4,
-        elevation: 3
+        elevation: 3,
+        marginBottom: 20,
+  
     }
 })
